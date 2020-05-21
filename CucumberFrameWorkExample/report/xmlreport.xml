@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0">
+    <testcase classname="Login to the HRM application" name="Login to the applicaiton" time="0">
+        <system-out><![CDATA[Given Open Chrome browser and launch the HRM application....................skipped
+When user enters the username in the username field.........................skipped
+And user enters the password in the password field..........................skipped
+Then user click on the login button and validate if the user login is sucessful.skipped
+]]></system-out>
+    </testcase>
+</testsuite>

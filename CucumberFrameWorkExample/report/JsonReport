@@ -1,0 +1,84 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "regular expression",
+        "description": "",
+        "id": "regular-expression-example;regular-expression",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 154854000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "i have 1 laptop",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 7
+                }
+              ],
+              "location": "RegularExpressionExampleDefinitions.i_have_laptop(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1027600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "i have a 7.5 GPA",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7.5",
+                  "offset": 9
+                }
+              ],
+              "location": "RegularExpressionExampleDefinitions.i_have_a_GPA(float)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1349500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "\"Arya\" is elder to \"Agni\" and \"Riya\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Arya",
+                  "offset": 1
+                },
+                {
+                  "val": "Agni",
+                  "offset": 20
+                },
+                {
+                  "val": "Riya",
+                  "offset": 31
+                }
+              ],
+              "location": "RegularExpressionExampleDefinitions.is_elder_to_and(String,String,String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "Regular expression example",
+    "description": "",
+    "id": "regular-expression-example",
+    "keyword": "Feature",
+    "uri": "featurefiles/ExpressionExample.feature"
+  }
+]
